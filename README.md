@@ -1,6 +1,7 @@
-
+# Learning_Python
 This repository contains small Python scripts I’ve developed while learning Python from scratch.
 
+# Goals
 The goal of this repo is to:
 - Practice core Python concepts
 - Build simple automation scripts
