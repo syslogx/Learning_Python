@@ -1,4 +1,5 @@
-# First Python script, simply accepts any three-digit number and checks if it's even or odd. Will fail if number is more than three-digits.
+# First Python script, simply accepts any three-digit number and checks if it's even or odd. Will fail if the number is more than three digits
+# Key Takeaways: Using int() to convert a string to a number for calculations, accepting input, and using if/elif/else to fulfill multiple conditions
 
 number = input("Enter a three digit number: ")
 number_length = len(number)
