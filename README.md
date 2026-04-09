@@ -3,9 +3,9 @@ This repository contains small Python scripts I’ve developed while learning Py
 
 # Goals
 The goal of this repo is to:
-- Practice core Python concepts
+- Practice Python
 - Build simple automation scripts
-- Track my progress over time
+- Track my progress as I go
 
 Some scripts are created as part of my coursework for WGU (D522 - Python for IT Automation), while others are random experiments and exercises.
 
