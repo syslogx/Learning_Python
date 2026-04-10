@@ -1,5 +1,5 @@
 # Script: Checks if a three-digit number is even or odd
-# Notes:
+# Notes/Lessons Learned:
 # Alerts the user if the input is not a three-digit number
 # Using len() to check digit count, and int() to convert for calculations
 # Using if/elif/else to check conditions
