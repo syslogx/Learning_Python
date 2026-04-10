@@ -1,7 +1,7 @@
-# First Script: Simply accepts any three-digit number and checks if it's even or odd. 
-#               Will alert if the number is more than three digits
-# Key Takeaways: Using int() to convert a string to an integer for calculations, accepting input, 
-#                and using if/elif/else to fulfill multiple conditions
+# Script: Checks if a three-digit number is even or odd
+# Notes:
+# Alerts the user if the input is not a three-digit number
+# Goals: Using int(), len(), and if/elif/else for conditional logic
 
 number = input("Enter a three digit number: ")
 number_length = len(number)
