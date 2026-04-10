@@ -1,7 +1,7 @@
 # Script: Simulates a simple store interaction (item, price, quantity).
 # Notes:
 # - Uses f-strings to print values and totals
-# - Converts input into numbers for calculations
+# - Uses type casting to convert input for calculations
 
 print("Welcome to the shop!")
 item = input("What item are you looking for? ")
