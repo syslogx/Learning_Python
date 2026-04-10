@@ -1,8 +1,8 @@
 # Script: Analyzes a string to determine if it is a palindrome,
 #         starts and ends with the same character, or neither.
-# Notes:
-# - Uses slices and indexes for string comparison
-# - Applies lower() for case-insensitive matching
+# Notes/Lessons Learned:
+# - Using slices and indexes for string comparison
+# - Applying lower() for case-insensitive matching
 # - Will reject cases of zero/one character inputs
 
 user_input = input("Input a string: ")
