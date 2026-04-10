@@ -1,7 +1,7 @@
 # Script: Analyzes a string to determine if it is a palindrome,
 #         starts and ends with the same character, or neither.
 # Notes:
-# - Uses slicing and indexing for string comparison
+# - Uses slices and indexes for string comparison
 # - Applies lower() for case-insensitive matching
 # - Will reject cases of zero/one character inputs
 
