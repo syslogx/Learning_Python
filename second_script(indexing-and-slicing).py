@@ -1,5 +1,7 @@
-# Second script, will accept a string input and detect if the word is a palindrome, matching first/last characters, or is just a normal word.
-# Key Takeaways: Using indexes and slices to manipulate and compare text, and using lower() to convert a string to lower-case
+# Second Script: Will accept a string input and detect if the word is a palindrome, 
+#                matching first/last characters, or is just a normal word.
+# Key Takeaways: Using indexes and slices to manipulate and compare text, 
+#                and using lower() to convert a string to lower-case
 
 user_input = input("Input a string: ")
 
