@@ -1,7 +1,7 @@
-# Third script: Will simulate a store interaction, by asking the user for their item, 
-#               the price of that item, and how many they want to purchase
-# Key Takeaways: Using f-strings to call variables or perform calculations in the same string, 
-#                and using type casting to change inputs to float/int for calculations.
+# Script: Simulates a simple store interaction (item, price, quantity).
+# Notes:
+# - Uses f-strings to print values and totals
+# - Converts input into numbers for calculations
 
 print("Welcome to the shop!")
 item = input("What item are you looking for? ")
