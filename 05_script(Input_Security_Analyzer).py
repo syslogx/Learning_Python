@@ -41,12 +41,12 @@ else:
     # Suspicious Checks (Limited to "a" or " " as a PoC, as I'm not using loops)
     if username.count(" ") > 5:
         print("Suspicious formatting detected: excessive spaces")
-        sanname = sanname.replace(" ", "FLAGGED")
+        sanname = sanname.replace(" ", "")
         sus = 1
 
     if username.count("a") > 5:
         print("Spam detected: Excessive character use")
-        sanname = sanname.replace("a", "FLAGGED")
+        sanname = sanname.replace("a", "")
         sus = 1
 
     # Prints final results
@@ -61,7 +61,7 @@ else:
     elif sus == 1:
         print("Status: SUSPICIOUS")
         print("Reason: Contains spam or suspicious formatting")
-        print(f"Sanitized: {sanname}")
+        print("Session Flagged")
    
     else: 
         print("Status: CLEAN")
