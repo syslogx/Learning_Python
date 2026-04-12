@@ -41,12 +41,12 @@ else:
     # Suspicious Checks (Limited to "a" or " " as a PoC, as I'm not using loops)
     if username.count(" ") > 5:
         print("Suspicious formatting detected: excessive spaces")
-        sanname = sanname.replace(" ", "")
+        sanname = sanname.replace(" ", "FLAGGED")
         sus = 1
 
     if username.count("a") > 5:
         print("Spam detected: Excessive character use")
-        sanname = sanname.replace("a", "")
+        sanname = sanname.replace("a", "FLAGGED")
         sus = 1
 
     # Prints final results
