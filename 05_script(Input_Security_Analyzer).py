@@ -50,7 +50,7 @@ else:
         sus = 1
 
     # Prints final results
-    print("Security Analysis\n***************")
+    print("Security Analysis\n*****************")
     print(f"Username: {username}\n")
     
     if mal == 1:
