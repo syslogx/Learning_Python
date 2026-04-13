@@ -1,13 +1,12 @@
-# Script: Account Lockout Simulator (Nested Conditionals)
+# Script: Account Login Simulator (Nested Conditionals)
 #        Simulates a login system with username validation, password checks,
-#        and a basic account lockout mechanism based on failed login attempts.
+#        and a warning for bad passwords.
 #        Uses structured conditional logic to prioritize security checks
-#        (lockout → validation → authentication) without using loops.
+#        (validation → authentication) without using loops.
 # Notes/Lessons Learned:
-# - Focued on nested conditionals to reinforce authentication
+# - Focused on nested conditionals to reinforce authentication
 # - Introduces priority-based logic (lockout conditions checked before login)
 # - Uses .strip() and .lower() for consistent input normalization
-# - Avoids unnecessary flag variables by directly checking conditions
 # - Combines validation, warning, and authentication into one example script
 # - Trying to learn how to make logic flow
 # - Builds toward real-world concepts like account lockout and access control
