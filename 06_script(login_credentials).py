@@ -8,7 +8,7 @@
 # - Introduces priority-based logic (lockout conditions checked before login)
 # - Uses .strip() and .lower() for consistent input normalization
 # - Combines validation, warning, and authentication into one example script
-# - Trying to learn how to make logic flow
+# - Trying to learn how to make logic flow efficiently
 # - Builds toward real-world concepts like account lockout and access control
 
 username = input("Enter your username: ").strip().lower()
