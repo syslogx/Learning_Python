@@ -12,7 +12,7 @@
 # - Builds toward real-world concepts like account lockout and access control
 
 username = input("Enter your username: ").strip().lower()
-password = input("Enter your password: ").strip().lower()
+password = input("Enter your password: ").strip()
 
 # Checks for valid username
 if len(username) == 0: 
