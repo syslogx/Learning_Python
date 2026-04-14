@@ -1,8 +1,6 @@
 # Script: Account Login Simulator (Nested Conditionals)
 #        Simulates a login system with username validation, password checks,
-#        and a warning for bad passwords.
-#        Uses structured conditional logic to prioritize security checks
-#        (validation → authentication) without using loops.
+#        and role control.
 # Notes/Lessons Learned:
 # - Focused on nested conditionals to reinforce authentication
 # - Introduces priority-based logic (lockout conditions checked before login)
