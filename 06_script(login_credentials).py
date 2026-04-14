@@ -7,9 +7,7 @@
 # - Focused on nested conditionals to reinforce authentication
 # - Introduces priority-based logic (lockout conditions checked before login)
 # - Uses .strip() and .lower() for consistent input normalization
-# - Combines validation, warning, and authentication into one example script
-# - Trying to learn how to make logic flow efficiently
-# - Builds toward real-world concepts like account lockout and access control
+# - Goal is to learn how to make logic flow efficiently
 
 username = input("Enter your username: ").strip().lower()
 password = input("Enter your password: ").strip()
