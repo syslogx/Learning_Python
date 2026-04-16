@@ -11,7 +11,10 @@ sides = int(input("How many sides are on each die: "))
 
 while True:
     for die in range(dice):
-        print(randint(1,sides))
+        output = "|"
+        roll = randint(1,sides)
+        output += f"{roll}|"
+        print(output)
     reply = input("Roll again? Press q to quit: ")
     if reply == 'q':
             break
