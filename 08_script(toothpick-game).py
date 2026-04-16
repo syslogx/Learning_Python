@@ -1,9 +1,9 @@
 # Script: Toothpick Game
 # Notes/Lessons Learned:
 # - While True can be used to simplify loop conditions. 
-#   it will run until a break condition stops it
+#     as it will run until a break condition stops it.
 # - Uses nested loops to check parts of the game, 
-#   such as active player, toothpick count, etc.
+#     such as active player, toothpick count, etc.
 # - Has a user input check to ensure it's 1, 2, or 3.
 
 toothpick = 20 
