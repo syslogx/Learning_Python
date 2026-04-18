@@ -9,20 +9,22 @@
 # - Checks if username exists in the system
 # - Verifies password against stored credentials
 # - Tracks failed login attempts
-# - Locks user out after exceeding attempt limit
+# - Locks user out after exceeding the attempt limit
 # - Grants access on successful login
 # - Improved previous version (Script 6) by making the logic 
 #   more structured and reusable
 # - Huge takeaway was understanding return values and how 
-#   those values can be applied to if conditions (ie: true/false)
+#   those values can be applied to if conditions (ie, true/false)
 
 stored_password = "EXAMPLE1234!"
 stored_user = "log"
 count = 0
 
+# Password Match Function
 def password_check(input_password, stored_password):
     return input_password == stored_password
 
+# Input Validation Function
 def username_validation(username):
     if len(username) < 1:
         return False
@@ -33,7 +35,7 @@ def username_validation(username):
     else:
         return True
 
-# Checks username and password  
+# Username/Password Inputs + Checks for Matches (calls password + username function before continuing)  
 while True:
     username = input("Username:\n").strip().lower()
     if username_validation(username):
