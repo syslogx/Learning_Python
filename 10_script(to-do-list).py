@@ -14,11 +14,11 @@
 # - Learned how list indexing connects user input to specific items
 
 header = """
-  _____         _           
- |_   _|__   __| | ___  ___ 
-   | |/ _ \ / _` |/ _ \/ __|
-   | | (_) | (_| | (_) \__ \\
-   |_|\___/ \__,_|\___/|___/
+  _____           _           
+ |_   _|__     __| | ___ 
+   | |/ _ \   / _` |/ _ \
+   | | (_)   | (_| | (_) |
+   |_|\___/   \__,_|\___/
                             
 """
 print(header)
@@ -42,7 +42,7 @@ while True:
     elif command.isnumeric():
         idx = int(command) - 1
         if idx >= len(todos):
-            print("THERE IS NO TODO WITH THAT NUMBER!")
+            print("There is no entry with that number.")
         else:
             done_todo = todos.pop(idx)
             completed.append(done_todo)
