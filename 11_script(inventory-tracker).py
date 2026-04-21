@@ -1,3 +1,14 @@
+# Script: Simulates a video-game inventory system that tracks user items.
+#         Users can add items, use items, or remove them entirely.
+#         A history log records user actions and is displayed when the app quits.
+# Notes / Lessons Learned:
+# - Uses dictionaries and lists to manage dynamically changing data
+# - Implements basic input validation for menu selection
+# - Uses a while True loop for continuous program execution until exit
+# - Uses methods like .pop() or .append() for removing/adding values
+# - Uses .items() with for-loops to iterate through dictionary key-value pairs
+# - Practices dictionary indexing for updating and retrieving values
+
 inventory = {}
 history = []
 options = ["1", "2", "3", "4", "5"]
