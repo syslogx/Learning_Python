@@ -5,7 +5,7 @@ from utils import load_csv, save_csv
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Cyber Log Pipeline")
+    parser = argparse.ArgumentParser(description="Log Pipeline")
     parser.add_argument("--input", required=True)
     parser.add_argument("--output", default="output/cleaned.csv")
     args = parser.parse_args()
